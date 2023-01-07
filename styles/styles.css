@@ -1,3 +1,45 @@
-h1 {
-    color: black;
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Hero Seation styles */
+.header {
+    background: blue;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner {
+    margin: 0 200px;
+    text-align: right;
+    padding-top: 350px;
+    padding-bottom: 350px;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+
+.hero-description {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.primary-button {
+    color: #005FAC;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 20px;
 }
