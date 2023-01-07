@@ -2,6 +2,7 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 /* Hero Seation styles */
 .header {
     background: blue;
@@ -50,6 +51,7 @@
 .second-section {
     margin: 150px;
 }
+
 .section-container {
     display: flex;
 }
@@ -58,7 +60,7 @@
     padding-top: 300px;
     width: 500px;
     padding-left: 100px;
-    
+
 }
 
 .content-title {
@@ -77,22 +79,31 @@
     padding-bottom: 20px;
 }
 
+.main {
+    max-width: 1140px;
+}
+
+/* third section styles */
+
 .my-plans {
-    margin-top: 200px;
-}
-
-.plans-container {
-    display: flex;
-    gap: 30px;
-}
-
-.plans-title {
     text-align: center;
-    font-size: 40px;
+}
+.plan-title {
+    color: black;
     font-weight: 700;
-    padding-bottom: 30px;
+    font-size: 40px;
+    line-height: 48px;
+    padding-bottom: 60px;
 }
 
-.plans {
-    text-align: center;
+.plans-content {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.content-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 48px;
 }
