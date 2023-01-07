@@ -14,8 +14,8 @@
 .banner {
     margin: 0 200px;
     text-align: right;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
 
 .hero-title {
@@ -42,4 +42,57 @@
     padding: 10px 20px;
     border-radius: 3px;
     margin-top: 20px;
+}
+
+
+/* Second section styles */
+
+.second-section {
+    margin: 150px;
+}
+.section-container {
+    display: flex;
+}
+
+.failure-section {
+    padding-top: 300px;
+    width: 500px;
+    padding-left: 100px;
+    
+}
+
+.content-title {
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    padding-bottom: 20px;
+}
+
+.content-description {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+
+.my-plans {
+    margin-top: 200px;
+}
+
+.plans-container {
+    display: flex;
+    gap: 30px;
+}
+
+.plans-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.plans {
+    text-align: center;
 }
